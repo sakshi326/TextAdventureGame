@@ -1,0 +1,121 @@
+C:\Users\jhasa\.jdks\openjdk-20.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2\lib\idea_rt.jar=59546:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\jhasa\IdeaProjects\TextAdventureGame\target\classes org.TextAdventureGame.Game
+Welcome to the Adventure Game!
+Commands: 
+- go [direction] : Move in a direction (north, south, east, west).
+- check inventory : View your collected items.
+- look around : Check for items and NPCs in the current room.
+- talk to [NPC name] : Talk to an NPC in the room.
+- take [item name] : Pick up an item.
+- use [item name] : Use an item in your inventory.
+- quit : Exit the game.
+
+Entrance
+You are at the entrance of a mysterious place.
+Your health: 100
+Exits: 
+- South
+Enter command: look around
+
+Entrance
+You are at the entrance of a mysterious place.
+Your health: 100
+Exits: 
+- South
+Enter command: go south
+
+You move to the Forest
+
+Forest
+A dense forest with rustling leaves.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: look around
+You see a Potion
+You see Old Man
+
+Forest
+A dense forest with rustling leaves.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: take potion
+You picked up the Potion
+
+Forest
+A dense forest with rustling leaves.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: go south
+
+You move to the Dungeon
+A wild Goblin appears!
+Fighting Goblin...
+You attacked Goblin for 20 damage.
+Goblin Health: 10
+Goblin attacked you for 15 damage.
+Your Health: 85
+You attacked Goblin for 20 damage.
+Goblin Health: 0
+You have defeated Goblin!
+
+Dungeon
+A dark and damp dungeon.
+Your health: 85
+Exits: 
+- North
+- South
+Enter command: use potion
+You used a Potion and healed 20 health points!
+
+Dungeon
+A dark and damp dungeon.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: look around
+You see a Sword
+
+Dungeon
+A dark and damp dungeon.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: take sword
+You picked up the Sword
+
+Dungeon
+A dark and damp dungeon.
+Your health: 100
+Exits: 
+- North
+- South
+Enter command: go south
+
+You move to the Treasure Room
+
+Treasure Room
+The room glitters with treasure!
+Your health: 100
+Exits: 
+- North
+Enter command: look around
+You see a Key
+
+Treasure Room
+The room glitters with treasure!
+Your health: 100
+Exits: 
+- North
+Enter command: take key
+You picked up the Key
+You have unlocked the treasure chest and collected the treasure!
+You Win!
+
+Process finished with exit code 0
